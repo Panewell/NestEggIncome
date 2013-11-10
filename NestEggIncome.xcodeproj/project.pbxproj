@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692D0F84182FE3020032078B /* bird_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F7F182FE3020032078B /* bird_120.png */; };
+		692D0F85182FE3020032078B /* bird_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F80182FE3020032078B /* bird_152.png */; };
+		692D0F86182FE3020032078B /* egg1_grn.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F81182FE3020032078B /* egg1_grn.png */; };
+		692D0F87182FE3020032078B /* egg2_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F82182FE3020032078B /* egg2_red.png */; };
+		692D0F88182FE3020032078B /* egg3_prple.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F83182FE3020032078B /* egg3_prple.png */; };
 		D92DA7E9182AE01C0073C1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7E8182AE01C0073C1A3 /* Foundation.framework */; };
 		D92DA7EB182AE01C0073C1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */; };
 		D92DA7ED182AE01C0073C1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EC182AE01C0073C1A3 /* UIKit.framework */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		692D0F7F182FE3020032078B /* bird_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_120.png; sourceTree = "<group>"; };
+		692D0F80182FE3020032078B /* bird_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_152.png; sourceTree = "<group>"; };
+		692D0F81182FE3020032078B /* egg1_grn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg1_grn.png; sourceTree = "<group>"; };
+		692D0F82182FE3020032078B /* egg2_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg2_red.png; sourceTree = "<group>"; };
+		692D0F83182FE3020032078B /* egg3_prple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg3_prple.png; sourceTree = "<group>"; };
 		D92DA7E5182AE01C0073C1A3 /* NestEggIncome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestEggIncome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92DA7E8182AE01C0073C1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,9 +112,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		692D0F73182FDFA60032078B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				692D0F7F182FE3020032078B /* bird_120.png */,
+				692D0F80182FE3020032078B /* bird_152.png */,
+				692D0F81182FE3020032078B /* egg1_grn.png */,
+				692D0F82182FE3020032078B /* egg2_red.png */,
+				692D0F83182FE3020032078B /* egg3_prple.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		D92DA7DC182AE01C0073C1A3 = {
 			isa = PBXGroup;
 			children = (
+				692D0F73182FDFA60032078B /* images */,
 				D92DA820182AE0C20073C1A3 /* Database */,
 				D92DA7EE182AE01C0073C1A3 /* NestEggIncome */,
 				D92DA810182AE01D0073C1A3 /* NestEggIncomeTests */,
@@ -277,7 +300,12 @@
 				D92DA833182AF9CF0073C1A3 /* NestEggIncome.sqlite in Resources */,
 				D92DA804182AE01C0073C1A3 /* Images.xcassets in Resources */,
 				D92DA7F3182AE01C0073C1A3 /* InfoPlist.strings in Resources */,
+				692D0F88182FE3020032078B /* egg3_prple.png in Resources */,
 				D92DA7FC182AE01C0073C1A3 /* Main.storyboard in Resources */,
+				692D0F86182FE3020032078B /* egg1_grn.png in Resources */,
+				692D0F84182FE3020032078B /* bird_120.png in Resources */,
+				692D0F87182FE3020032078B /* egg2_red.png in Resources */,
+				692D0F85182FE3020032078B /* bird_152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +541,7 @@
 				D92DA81C182AE01D0073C1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92DA81D182AE01D0073C1A3 /* Build configuration list for PBXNativeTarget "NestEggIncomeTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +550,7 @@
 				D92DA81F182AE01D0073C1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
