@@ -12,6 +12,8 @@
 		692D0F86182FE3020032078B /* egg1_grn.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F81182FE3020032078B /* egg1_grn.png */; };
 		692D0F87182FE3020032078B /* egg2_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F82182FE3020032078B /* egg2_red.png */; };
 		692D0F88182FE3020032078B /* egg3_prple.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F83182FE3020032078B /* egg3_prple.png */; };
+		69B0F55818300B87005A2F62 /* bird_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B0F55618300B87005A2F62 /* bird_120.png */; };
+		69B0F55918300B87005A2F62 /* bird_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B0F55718300B87005A2F62 /* bird_152.png */; };
 		D92DA7E9182AE01C0073C1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7E8182AE01C0073C1A3 /* Foundation.framework */; };
 		D92DA7EB182AE01C0073C1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */; };
 		D92DA7ED182AE01C0073C1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EC182AE01C0073C1A3 /* UIKit.framework */; };
@@ -52,6 +54,8 @@
 		692D0F81182FE3020032078B /* egg1_grn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg1_grn.png; sourceTree = "<group>"; };
 		692D0F82182FE3020032078B /* egg2_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg2_red.png; sourceTree = "<group>"; };
 		692D0F83182FE3020032078B /* egg3_prple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg3_prple.png; sourceTree = "<group>"; };
+		69B0F55618300B87005A2F62 /* bird_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_120.png; sourceTree = "<group>"; };
+		69B0F55718300B87005A2F62 /* bird_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_152.png; sourceTree = "<group>"; };
 		D92DA7E5182AE01C0073C1A3 /* NestEggIncome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestEggIncome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92DA7E8182AE01C0073C1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +180,8 @@
 		D92DA7EF182AE01C0073C1A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69B0F55618300B87005A2F62 /* bird_120.png */,
+				69B0F55718300B87005A2F62 /* bird_152.png */,
 				D92DA832182AF9CF0073C1A3 /* NestEggIncome.sqlite */,
 				D92DA7F0182AE01C0073C1A3 /* NestEggIncome-Info.plist */,
 				D92DA7F1182AE01C0073C1A3 /* InfoPlist.strings */,
@@ -301,9 +307,11 @@
 				D92DA804182AE01C0073C1A3 /* Images.xcassets in Resources */,
 				D92DA7F3182AE01C0073C1A3 /* InfoPlist.strings in Resources */,
 				692D0F88182FE3020032078B /* egg3_prple.png in Resources */,
+				69B0F55818300B87005A2F62 /* bird_120.png in Resources */,
 				D92DA7FC182AE01C0073C1A3 /* Main.storyboard in Resources */,
 				692D0F86182FE3020032078B /* egg1_grn.png in Resources */,
 				692D0F84182FE3020032078B /* bird_120.png in Resources */,
+				69B0F55918300B87005A2F62 /* bird_152.png in Resources */,
 				692D0F87182FE3020032078B /* egg2_red.png in Resources */,
 				692D0F85182FE3020032078B /* bird_152.png in Resources */,
 			);
