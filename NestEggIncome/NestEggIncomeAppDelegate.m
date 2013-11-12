@@ -5,6 +5,7 @@
 //  Created by Paul Newell on 11/6/13.
 //  Copyright (c) 2013 RVC Student. All rights reserved.
 //
+//   June Scheri
 
 // 1) Add fmdb
 #import "FMDatabase.h"
