@@ -361,15 +361,8 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdz-6x-Eal">
-                                        <rect key="frame" x="20" y="455" width="280" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Clear">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1NY-lr-1Wy">
-                                        <rect key="frame" x="20" y="74" width="280" height="373"/>
+                                        <rect key="frame" x="20" y="74" width="280" height="411"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1308,10 +1301,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="HrO-zv-31M"/>
-        <segue reference="zq9-iA-wjA"/>
-        <segue reference="oZX-ab-cUq"/>
         <segue reference="YUk-PM-rpy"/>
+        <segue reference="ctc-aK-og7"/>
         <segue reference="zeT-sh-XuH"/>
+        <segue reference="HrO-zv-31M"/>
+        <segue reference="QIP-0y-MMS"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,18 +7,20 @@
 //
 //   June Scheri
 
-// 1) Add fmdb
+// fmdb
 #import "FMDatabase.h"
+
 #import "NestEggIncomeAppDelegate.h"
 
 @implementation NestEggIncomeAppDelegate
-// 2) Add Syntesize
+
+// Add Syntesize
 @synthesize databasename;
 @synthesize databasepath;
 @synthesize documentPaths;
 @synthesize documentsDir;
 
-// 3 Add createAndCheckDatabase Function
+// createAndCheckDatabase Function
 -(void) createAndCheckDatabase
 {
     BOOL success;
@@ -35,7 +37,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // 4) Add Launch options
+// Launch options
     self.databasename = @"NestEggIncome.sqlite";
     
     NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

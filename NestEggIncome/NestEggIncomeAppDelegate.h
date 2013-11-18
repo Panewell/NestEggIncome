@@ -11,7 +11,7 @@
 @interface NestEggIncomeAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-//1) database path
+// database path
 @property NSString *databasename;
 @property NSString *databasepath;
 @property NSArray *documentPaths;
