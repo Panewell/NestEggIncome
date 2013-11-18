@@ -14,6 +14,7 @@
 		692D0F88182FE3020032078B /* egg3_prple.png in Resources */ = {isa = PBXBuildFile; fileRef = 692D0F83182FE3020032078B /* egg3_prple.png */; };
 		69B0F55818300B87005A2F62 /* bird_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B0F55618300B87005A2F62 /* bird_120.png */; };
 		69B0F55918300B87005A2F62 /* bird_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B0F55718300B87005A2F62 /* bird_152.png */; };
+		D928F055183993AD00601D98 /* NestEggIncome.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D928F054183993AD00601D98 /* NestEggIncome.sqlite */; };
 		D92DA7E9182AE01C0073C1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7E8182AE01C0073C1A3 /* Foundation.framework */; };
 		D92DA7EB182AE01C0073C1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */; };
 		D92DA7ED182AE01C0073C1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA7EC182AE01C0073C1A3 /* UIKit.framework */; };
@@ -35,7 +36,6 @@
 		D92DA82E182AE1BB0073C1A3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA828182AE1BB0073C1A3 /* FMDatabaseQueue.m */; };
 		D92DA82F182AE1BB0073C1A3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D92DA82A182AE1BB0073C1A3 /* FMResultSet.m */; };
 		D92DA831182AE2160073C1A3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D92DA830182AE2160073C1A3 /* libsqlite3.0.dylib */; };
-		D92DA833182AF9CF0073C1A3 /* NestEggIncome.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D92DA832182AF9CF0073C1A3 /* NestEggIncome.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +56,7 @@
 		692D0F83182FE3020032078B /* egg3_prple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg3_prple.png; sourceTree = "<group>"; };
 		69B0F55618300B87005A2F62 /* bird_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_120.png; sourceTree = "<group>"; };
 		69B0F55718300B87005A2F62 /* bird_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_152.png; sourceTree = "<group>"; };
+		D928F054183993AD00601D98 /* NestEggIncome.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = NestEggIncome.sqlite; path = Database/NestEggIncome.sqlite; sourceTree = SOURCE_ROOT; };
 		D92DA7E5182AE01C0073C1A3 /* NestEggIncome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestEggIncome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92DA7E8182AE01C0073C1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D92DA7EA182AE01C0073C1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,7 +89,6 @@
 		D92DA829182AE1BB0073C1A3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		D92DA82A182AE1BB0073C1A3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		D92DA830182AE2160073C1A3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		D92DA832182AF9CF0073C1A3 /* NestEggIncome.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NestEggIncome.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,9 +180,9 @@
 		D92DA7EF182AE01C0073C1A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D928F054183993AD00601D98 /* NestEggIncome.sqlite */,
 				69B0F55618300B87005A2F62 /* bird_120.png */,
 				69B0F55718300B87005A2F62 /* bird_152.png */,
-				D92DA832182AF9CF0073C1A3 /* NestEggIncome.sqlite */,
 				D92DA7F0182AE01C0073C1A3 /* NestEggIncome-Info.plist */,
 				D92DA7F1182AE01C0073C1A3 /* InfoPlist.strings */,
 				D92DA7F4182AE01C0073C1A3 /* main.m */,
@@ -303,12 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92DA833182AF9CF0073C1A3 /* NestEggIncome.sqlite in Resources */,
 				D92DA804182AE01C0073C1A3 /* Images.xcassets in Resources */,
 				D92DA7F3182AE01C0073C1A3 /* InfoPlist.strings in Resources */,
 				692D0F88182FE3020032078B /* egg3_prple.png in Resources */,
 				69B0F55818300B87005A2F62 /* bird_120.png in Resources */,
 				D92DA7FC182AE01C0073C1A3 /* Main.storyboard in Resources */,
+				D928F055183993AD00601D98 /* NestEggIncome.sqlite in Resources */,
 				692D0F86182FE3020032078B /* egg1_grn.png in Resources */,
 				692D0F84182FE3020032078B /* bird_120.png in Resources */,
 				69B0F55918300B87005A2F62 /* bird_152.png in Resources */,
